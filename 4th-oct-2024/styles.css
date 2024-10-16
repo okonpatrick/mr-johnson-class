@@ -1,0 +1,30 @@
+
+body {
+    font-size: larger;
+    font-weight: 60px;
+}
+p {
+    color: green ;
+}
+.p-class {
+    /* border-image: url(/images/code.png) 30 round; */
+    color: purple;
+}
+
+#p-class {
+    color: red ;
+}
+
+h2 {
+    border-image: url(/images/code.png);
+}
+.class-div {
+    position: absolute;
+    background-color: green;
+    color: white;
+    width: min(12%, 600px);
+    padding: 10px;
+    border: 8px solid green;
+
+
+}
