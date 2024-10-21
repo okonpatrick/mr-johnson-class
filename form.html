@@ -1,30 +1,27 @@
 <!DOCTYPE html>
-<html>
-    <title>Registration form</title>
-    <Body>
-        <form>
-            <div>
-                <label>First name</label>
-                <input placeholder="first name" type="text">
-            </div>
-            <div>
-                <label>Last name</label>
-                <input placeholder="last name" type="text">
-            </div>
-            <div>
-                <label>Email</label>
-                <input placeholder="email" type="email">
-            </div>
-            <div>
-                <label>Date of Birth</label>
-                <input placeholder="Date of Birth" type="Date">
-            </div>
-            <div>
-                <label>Password</label>
-                <input placeholder="Password" type="password">
-            </div>
-            <button type="submit">submit</button>
-        </form>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Registration Form</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
 
-    </Body>
+        <form class="formclass">
+            <h2 class="h2Login">Login Form</h2>
+            <div class="buttonclass">
+                <button>Login</button>
+                <button>SignUp</button>
+            </div>
+
+            <div>
+                <input class="inputclass" placeholder="Email Address">
+                <input placeholder="password">
+            </div>
+            <p><a href="/user/reset-password">Forgot password?</a></p>
+            <button>Login</button>
+            <p>Do you have an account already?</p>
+        </form>
+          </body>
 </html>

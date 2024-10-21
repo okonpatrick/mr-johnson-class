@@ -1,0 +1,71 @@
+body {
+    text-align: center;
+    margin: 15%;
+    background-color: white;
+}
+
+.h2Login {
+    font-weight: bolder;
+    font-size: 30px;
+    color: black;
+};
+
+.smallBtn{
+    background-color: purple;
+}
+
+.buttonclass{
+    margin: 16px;
+}
+
+.formclass {
+    background-color: white;
+    width: 20%;
+    height: 60%;
+    align-items: center;
+    margin: auto;
+}
+
+.inputclass{
+    margin: 8px; 
+}
+
+.classdiv {
+    width: 400px;
+    height: 100px;
+}
+
+.parent-div {
+    margin-top: 40px;
+}
+
+#div-1 {
+    background-color: red;
+    position: fixed;
+}
+
+#div-2 {
+    background-color: yellow;
+    position: relative;
+    left: 40%;
+}
+
+#div-3 {
+    background-color: black;
+}
+
+#div-4 {
+    background-color: blue;
+    position: relative;
+    left: 60%;
+}
+
+#div-5 {
+    background-color: purple;
+}
+
+.image-class {
+    display: flex;
+    width: 50px;
+    height: 50px;
+}

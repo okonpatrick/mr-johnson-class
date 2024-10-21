@@ -1,0 +1,35 @@
+h1 {
+    color: blue;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body {
+    /* background-image: url("/images/code.png"); */
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100vw;
+    background-position: center;
+    background-size: contain;
+}
+
+.Difference {
+    font-size: x-large;
+    font-weight: bolder;
+    border: 40px solid green;
+    margin: 80px; 
+    font-family: "Jacques Francois Shadow", serif;
+    font-style: normal;
+}
+
+.fontDifference {
+    font-family: "Rubik", sans-serif;
+    font-size: x-large;
+    font-weight: bold;
+    border: 40px solid green;
+    margin: 80px; 
+    border: 80x solid green;
+    border-image: url(/images/code.png) 30 round;
+
+}
+
