@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Form</title>
+</head>
+<body>
+
+<div class="login-form">
+    <h1>COOL LOGIN FORM</h1>
+  
+    <div class="welcome-message">
+        <p>Hello again,</p>
+        <p>welcome back you've been missed!</p>
+    </div>
+
+    <form action="/submit-login" method="post">
+        <div class="input-group">
+            <label for="username">Enter username</label>
+            <input type="text" id="username" name="username" required>
+        </div>
+
+        <div class="input-group">
+            <label for="password">Password</label>
+            <input type="password" id="password" name="password" required>
+        </div>
+
+        <!-- Placeholder for Recover Password link -->
+        <a href="#">Recover Password</a>
+
+        <!-- Placeholder for Sign in button -->
+        <button type="submit">Sign in</button>
+
+        <!-- Placeholder for Continue with other services -->
+        <div class="other-services">
+            <p>----- or continue with -----</p>
+            <!-- Icons for other services would go here -->
+        </div>
+
+        <!-- Placeholder for Register Now link -->
+        <p>Not a member? <a href="#">Register Now</a></p>
+    </form>
+
+</div>
+
+</body>
+</html>

@@ -1,0 +1,38 @@
+/* style.css */
+body {
+    text-align: center;
+    background-color: purple;
+  }
+
+    .one {
+        background-color: purple;
+       font-weight: bolder;
+       font-size: 25px;
+       color: white;
+    }
+  .two {
+    font-weight: bolder;
+    font-size: 25px;
+    color: black;
+
+  }
+  .three {
+    background-color: purple;
+    color: white;
+  }
+
+  .formcolor {
+    align-items: center;
+    margin: auto;
+    background-color: white;
+    width: 30%;
+    height: 70;
+  }
+
+  .margin1 {
+    margin: 10px;
+  }
+
+  .inputclass {
+    margin: 10px;
+  }

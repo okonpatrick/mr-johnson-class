@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Get CID</title>
+    <link rel="stylesheet" href="keys.css">
+</head>
+<body>
+    <header>
+        <h1>Get Your Confirmation ID</h1>
+    </header>
+    <main>
+        <section id="form-section">
+            <h2>Enter Your Installation ID</h2>
+            <form id="cid-form">
+                <label for="installation-id">Installation ID:</label>
+                <input type="text" id="installation-id" name="installation-id" required>
+                <button type="submit">Get CID</button>
+            </form>
+        </section>
+        <section id="result-section" style="display: none;">
+            <h2>Your Confirmation ID</h2>
+            <p id="confirmation-id"></p>
+        </section>
+    </main>
+    <footer>
+        <p>© 2024 GetCID</p>
+    </footer>
+    <script src="app.js"></script>
+</body>
+</html>

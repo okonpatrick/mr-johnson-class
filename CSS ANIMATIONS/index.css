@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+div {
+    width: 200px;
+    background-color: red;
+    height: 200px;
+    margin: auto;
+    margin-top: 50px;
+}
+
+div:hover {
+    transform: translate(100px, 0px);
+    transition-timing-function: ease-in-out;
+    transition-duration: 4s;
+}
