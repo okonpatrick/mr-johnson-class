@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.parent {
+ width: 500px;
+ height: 500px;
+ background-color: green;
+ display: grid;
+ grid-template-columns: repeat(4, 1fr);
+ grid-template-rows: repeat(5, 1fr);
+ gap: 10px;
+ margin: auto;
+ margin-top: 30px;
+ padding: 10px;
+}
+
+.three {
+    grid-column: span 2;
+    grid-row: span 3;
+}
+
+.four {
+grid-column: span 2;
+grid-row: span 2;
+}
+
+.five {
+    grid-column: span 2;
+    grid-row: span 2;
+}
+
+.six {
+    grid-column: span 2;
+    grid-row: span 2;
+}
+.box {
+    height: 100%;
+    width: 100%;
+    border: 2px solid black;
+    background-color: red;
+}
+
+img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    object-position: center;
+}

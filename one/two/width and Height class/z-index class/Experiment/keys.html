@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Key Verification</title>
+    <link rel="stylesheet" href="keys.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Verify Product Key and Generate Confirmation ID</h1>
+        <form id="verification-form">
+            <div class="form-group">
+                <label for="product-key">Product Key:</label>
+                <input type="text" id="product-key" name="product-key" required>
+            </div>
+            <div class="form-group">
+                <label for="installation-id">Installation ID:</label>
+                <input type="text" id="installation-id" name="installation-id" required>
+            </div>
+            <button type="submit">Verify and Generate</button>
+        </form>
+        <div id="result"></div>
+    </div>
+
+    <script>
+        document.getElementById('verification-form').addEventListener('submit', function(event) {
+            event.preventDefault();
+            
+            const productKey = document.getElementById('product-key').value;
+            const installationId = document.getElementById('installation-id').value;
+            
+            fetch('/verify-key', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify({ productKey })
+            })
+            .then(response => response.json())
+            .then(data => {
+                if (data.status === 'valid') {
+                    fetch('/generate-confirmation-id', {
+                        method: 'POST',
+                        headers: {
+                            'Content-Type': 'application/json'
+                        },
+                        body: JSON.stringify({ productKey, installationId })
+                    })
+                    .then(response => response.json())
+                    .then(data => {
+                        document.getElementById('result').innerText = `Confirmation ID: ${data.confirmationId}`;
+                    });
+                } else {
+                    document.getElementById('result').innerText = 'Invalid Product Key';
+                }
+            })
+            .catch(error => {
+                console.error('Error:', error);
+            });
+        });
+    </script>
+</body>
+</html>
