@@ -1,0 +1,42 @@
+.container {
+    position: relative;
+}
+
+.div-1 {
+   width: 600px;
+   height: 400px;
+    background-color: green;
+    color: white;
+    position: absolute;
+    margin: 20px;
+    padding: 8px;
+    font-size: large;
+    z-index: 0;
+}
+
+.div-2 {
+    width: 600px;
+    height: 400px;
+    background-color: red;
+    color: white;
+    position: absolute;
+    margin: 40px;
+    top: 40px;
+    padding: 8px;
+    font-size: large;
+    z-index: -1;
+}
+
+.div-3 {
+    width: 600px;
+    height: 400px;
+    background-color: blue;
+    color: white;
+    position: absolute;
+    margin: 140px;
+    padding: 8px;
+    font-size: large;
+    z-index: 1;
+    text-decoration: underline;
+}
+/* z-index */
