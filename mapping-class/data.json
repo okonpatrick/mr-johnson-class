@@ -1,0 +1,45 @@
+[
+    {
+      "name": "/images/code.png",
+      "code": "YS23201",
+      "price": 42.00,
+      "image": "chair1.jpg",
+      "isNew": true
+    },
+    {
+      "name": "/images/code.png",
+      "code": "YS23202",
+      "price": 42.00,
+      "oldPrice": 65.00,
+      "image": "chair2.jpg",
+      "isSale": true
+    },
+    {
+      "name": "/images/code.png",
+      "code": "YS23203",
+      "price": 42.00,
+      "image": "chair3.jpg"
+    },
+    {
+        "name": "/images/code.png",
+        "code": "YS23201",
+        "price": 42.00,
+        "image": "chair1.jpg",
+        "isNew": true
+      },
+      {
+        "name": "/images/code.png",
+        "code": "YS23202",
+        "price": 42.00,
+        "oldPrice": 65.00,
+        "image": "chair2.jpg",
+        "isSale": true
+      },
+      {
+        "name": "/images/code.png",
+        "code": "YS23203",
+        "price": 42.00,
+        "image": "chair3.jpg"
+      }
+  ]
+  
