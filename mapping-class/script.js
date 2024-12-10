@@ -11,7 +11,6 @@ function renderProducts(products) {
      (product) => `
      <div class="product-card">
        <div class="product-image">
-         <img src="${product.image}" alt="${product.name}">
          ${product.isSale ? '<span class="badge">Sale</span>' : ''}
          ${product.isNew ? '<span class="badge">New</span>' : ''}
        </div>
